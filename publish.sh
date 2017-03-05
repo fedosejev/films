@@ -2,11 +2,6 @@
 
 # Build content and static files
 npm run build
-npm run html
-
-# Replace placeholder with rendered html
-node ./utils/html
-rm build/js/html.js
 
 # Commit and push
 git add .
