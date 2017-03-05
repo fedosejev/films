@@ -2,10 +2,10 @@ import React from 'react';
 
 const Film = ({ film: { name, company, url, image }}) => (
   <div className="row film">
-    <div className="col-sm-4">
+    <div className="col-xs-12 col-sm-6 col-md-4">
       <img src={image} title={`${name} by ${company}`} alt={`${name} by ${company}`} />
     </div>
-    <div className="col-sm-8">
+    <div className="col-sm-6">
       <p>
         <strong>Name:</strong> <a href={url}>{name}</a>
       </p>
